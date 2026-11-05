@@ -1,0 +1,32 @@
+{
+  "name": "zaodian-fabric-viewer",
+  "private": true,
+  "version": "0.6.1",
+  "type": "module",
+  "engines": {
+    "node": ">=22.12.0",
+    "npm": ">=10"
+  },
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "typecheck": "tsc --noEmit",
+    "test:browser": "node tests/uv-mapping.cjs && node tests/b2.browser.cjs && node tests/b3.browser.cjs && node tests/b4.browser.cjs && node tests/apple-leather.browser.cjs && node tests/reference-fabrics.browser.cjs",
+    "test:b3": "node tests/b3.browser.cjs",
+    "test:b4": "node tests/b4.browser.cjs",
+    "generate:fabrics": "node tools/generate-test-fabrics.cjs",
+    "test:apple": "node tests/apple-leather.browser.cjs",
+    "test:reference-fabrics": "node tests/reference-fabrics.browser.cjs",
+    "test:uv": "node tests/uv-mapping.cjs"
+  },
+  "dependencies": {
+    "three": "0.187.0"
+  },
+  "devDependencies": {
+    "@types/three": "0.187.0",
+    "playwright": "1.56.1",
+    "typescript": "5.9.3",
+    "vite": "7.3.7"
+  }
+}

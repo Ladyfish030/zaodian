@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "assetId": "zaodian-tote-b-v1",
+  "assetVersion": "1.0.0",
+  "format": "glb",
+  "modelUrl": "../models/zaodian_tote_test_v1.0.0.glb",
+  "unit": "meter",
+  "upAxis": "Y",
+  "forwardAxis": "+Z",
+  "dimensionsMm": {
+    "width": 360,
+    "height": 456,
+    "depth": 122
+  },
+  "parts": [
+    {
+      "id": "front_panel",
+      "label": "前片",
+      "nodeName": "front_panel",
+      "configurable": true,
+      "materialSlot": "front_panel_material",
+      "groupKey": "front_panel"
+    },
+    {
+      "id": "back_panel",
+      "label": "后片",
+      "nodeName": "back_panel",
+      "configurable": true,
+      "materialSlot": "back_panel_material",
+      "groupKey": "back_panel"
+    },
+    {
+      "id": "left_gusset",
+      "label": "左侧片",
+      "nodeName": "left_gusset",
+      "configurable": true,
+      "materialSlot": "left_gusset_material",
+      "groupKey": "left_gusset"
+    },
+    {
+      "id": "right_gusset",
+      "label": "右侧片",
+      "nodeName": "right_gusset",
+      "configurable": true,
+      "materialSlot": "right_gusset_material",
+      "groupKey": "right_gusset"
+    },
+    {
+      "id": "bottom_panel",
+      "label": "底片",
+      "nodeName": "bottom_panel",
+      "configurable": true,
+      "materialSlot": "bottom_panel_material",
+      "groupKey": "bottom_panel"
+    },
+    {
+      "id": "handle_left",
+      "label": "前侧提手（历史 ID left）",
+      "nodeName": "handle_left",
+      "configurable": true,
+      "materialSlot": "handle_left_material",
+      "groupKey": "handle_left"
+    },
+    {
+      "id": "handle_right",
+      "label": "后侧提手（历史 ID right）",
+      "nodeName": "handle_right",
+      "configurable": true,
+      "materialSlot": "handle_right_material",
+      "groupKey": "handle_right"
+    }
+  ]
+}
