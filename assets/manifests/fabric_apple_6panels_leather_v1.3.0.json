@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "assetType": "fabric_apple",
+  "assetId": "zaodian-fabric-apple-6panels",
+  "assetVersion": "1.3.0",
+  "format": "glb",
+  "modelUrl": "../models/fabric_apple_6panels_leather_v1.3.0.glb",
+  "unit": "meter",
+  "upAxis": "Y",
+  "forwardAxis": "+Z",
+  "dimensionsMm": {
+    "width": 79.48881213335922,
+    "height": 108.30195606413879,
+    "depth": 80
+  },
+  "parts": [
+    {
+      "id": "apple_panel_01",
+      "label": "果身第 1 片",
+      "nodeName": "Body_Panel_01",
+      "configurable": true,
+      "materialSlot": "Body_Panel_01_Fabric",
+      "groupKey": "apple_panel_01",
+      "uvPhysicalSizeMm": {
+        "width": 60,
+        "height": 140
+      }
+    },
+    {
+      "id": "apple_panel_02",
+      "label": "果身第 2 片",
+      "nodeName": "Body_Panel_02",
+      "configurable": true,
+      "materialSlot": "Body_Panel_02_Fabric",
+      "groupKey": "apple_panel_02",
+      "uvPhysicalSizeMm": {
+        "width": 60,
+        "height": 140
+      }
+    },
+    {
+      "id": "apple_panel_03",
+      "label": "果身第 3 片",
+      "nodeName": "Body_Panel_03",
+      "configurable": true,
+      "materialSlot": "Body_Panel_03_Fabric",
+      "groupKey": "apple_panel_03",
+      "uvPhysicalSizeMm": {
+        "width": 60,
+        "height": 140
+      }
+    },
+    {
+      "id": "apple_panel_04",
+      "label": "果身第 4 片",
+      "nodeName": "Body_Panel_04",
+      "configurable": true,
+      "materialSlot": "Body_Panel_04_Fabric",
+      "groupKey": "apple_panel_04",
+      "uvPhysicalSizeMm": {
+        "width": 60,
+        "height": 140
+      }
+    },
+    {
+      "id": "apple_panel_05",
+      "label": "果身第 5 片",
+      "nodeName": "Body_Panel_05",
+      "configurable": true,
+      "materialSlot": "Body_Panel_05_Fabric",
+      "groupKey": "apple_panel_05",
+      "uvPhysicalSizeMm": {
+        "width": 60,
+        "height": 140
+      }
+    },
+    {
+      "id": "apple_panel_06",
+      "label": "果身第 6 片",
+      "nodeName": "Body_Panel_06",
+      "configurable": true,
+      "materialSlot": "Body_Panel_06_Fabric",
+      "groupKey": "apple_panel_06",
+      "uvPhysicalSizeMm": {
+        "width": 60,
+        "height": 140
+      }
+    },
+    {
+      "id": "apple_leather_loop",
+      "label": "皮革环带",
+      "nodeName": "Leather_Loop",
+      "configurable": false,
+      "materialSlot": "Leather_Loop"
+    },
+    {
+      "id": "apple_leather_cord",
+      "label": "皮革细带",
+      "nodeName": "Leather_Stem_Cord",
+      "configurable": false,
+      "materialSlot": "Leather_Knotted_Cord"
+    },
+    {
+      "id": "apple_leather_knot",
+      "label": "皮革结头",
+      "nodeName": "Leather_End_Knot",
+      "configurable": false,
+      "materialSlot": "Leather_Knotted_Cord"
+    }
+  ]
+}
